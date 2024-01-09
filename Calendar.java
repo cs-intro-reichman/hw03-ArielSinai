@@ -9,7 +9,7 @@ public class Calendar {
 	static int nDaysInMonth = 31; // Number of days in January
 	static int dayCount = 1;
 
-	public static void main(String args[]) {
+	public static void main(String args[]) { 
 		if (args.length > 0) {
 
 

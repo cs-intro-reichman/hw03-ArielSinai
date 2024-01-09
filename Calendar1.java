@@ -13,7 +13,7 @@ public class Calendar1 {
 	 * Prints the calendars of all the years in the 20th century. Also prints the  
 	 * number of Sundays that occured on the first day of the month during this period.
 	 */
-	public static void main(String args[]) {
+	public static void main(String args[]) { 
 		int debugDaysCounter = 0;
 		while (year <= 1999) { // Iterate through years until 1999
 			advance();

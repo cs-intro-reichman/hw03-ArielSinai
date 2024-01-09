@@ -12,7 +12,7 @@ public class LowerCase {
     * except that all the upper-case letters are converted to lower-case letters.
     * Non-letter characters are left as is.
     */
-    public static String lowerCase(String s) {
+    public static String lowerCase(String s) { 
         String lowerCase1 = "";
         for(int i = 0; i < s.length(); i++){
             char currentChar = s.charAt(i);

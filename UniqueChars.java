@@ -12,7 +12,7 @@ public class UniqueChars {
      * except that all the duplicate characters are removed,
      * unless they are space characters.
      */
-    public static String uniqueChars(String s) {
+    public static String uniqueChars(String s) { 
         String uniqueCharcaters = "";
 
         for(int i = 0; i < s.length(); i++){
