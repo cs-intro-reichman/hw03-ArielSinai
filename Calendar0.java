@@ -26,7 +26,7 @@ public class Calendar0 {
 	private static void nDaysInMonthTest(int year) {
 		for(int month = 1; month <= 12; month++){
 			int daysInMonth = nDaysInMonth(month, year);
-			System.out.println("Number of days in month " + month + " of year " + year + ": " + daysInMonth);
+			System.out.println("Month " + month + " has " + daysInMonth + " days");
     	}
 
 	}
