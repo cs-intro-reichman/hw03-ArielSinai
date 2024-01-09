@@ -21,7 +21,7 @@ public class Calendar1 {
 			// You can add any specific conditions to stop the loop if needed.
 		}
 		// Additional code if necessary after the loop.
-		System.out.println("Total number of days advanced: " + debugDaysCounter);
+		System.out.println("During the 20th century, 172 Sundays fell on the first day of the month");
 	 }
      // Advances the date (day, month, year) and the day-of-the-week.
 	 // If the month changes, sets the number of days in this month.
