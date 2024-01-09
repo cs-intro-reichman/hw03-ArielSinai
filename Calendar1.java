@@ -39,13 +39,15 @@ public class Calendar1 {
 			 nDaysInMonth = nDaysInMonth(month, year);
 		 }
 
-		 System.out.print(dayOfMonth + "/");
-		 System.out.print(month + "/");
-		 System.out.print(year);
-		 if (dayOfWeek == 1 && dayOfMonth == 1) {
-			 System.out.println(" - Sunday");
-		 } else {
-			 System.out.println();
+		 if (year <= 1999) {
+			System.out.print(dayOfMonth + "/");
+		 	System.out.print(month + "/");
+		 	System.out.print(year);
+		 	if (dayOfWeek == 1 && dayOfMonth == 1) {
+			 	System.out.println(" - Sunday");
+			 } else {
+			 	System.out.println();
+		 	}
 		 }
 
 	 } 
